@@ -41,15 +41,6 @@ function App() {
     const post = await createPost(newPost);
     setPost([post, ...posts]);
   };
-  // const handleCreatePost = async () => {
-  //   const newPost = {
-  //     title: 'New Post',
-  //     body: `This is a new post. ${Date.now()}`,
-  //     userId: 1,
-  //   };
-  //   const post = await createPost(newPost);
-  //   setPosts([post, ...posts]);
-  // };
 
 
 
